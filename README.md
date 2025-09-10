@@ -18,7 +18,7 @@ Full URL : http://localhost:5000/bmi (Post)
 
 
 #### Workflow
-<img src="./src/assets/bmi.png" alt="BMI Graph" width="500" height="300"/>
+<img src="./src/assets/bmi.png" alt="BMI Graph" width="500" height="400"/>
 
 
 
