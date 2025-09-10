@@ -18,7 +18,8 @@ Full URL : http://localhost:5000/bmi (Post)
 
 
 #### Workflow
-![BMI Graph](./src/assets/bmi.png)
+<img src="./src/assets/bmi.png" alt="BMI Graph" width="500" height="300"/>
+
 
 
 ### Parallel Workflow
@@ -37,7 +38,7 @@ Full URL : http://localhost:5000/essay (Post)
 ```
 
 #### Workflow
-![essay Graph](./src/assets/essay.png)
+<img src="./src/assets/essay.png" alt="BMI Graph" width="500" height="300"/>
 
 
 ---
