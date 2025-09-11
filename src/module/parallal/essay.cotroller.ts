@@ -1,4 +1,3 @@
-import { ChatOpenAI } from "@langchain/openai";
 import dotenv from "dotenv"
 import { Router } from "express";
 import { ChatMistralAI } from "@langchain/mistralai";
@@ -7,10 +6,7 @@ dotenv.config()
 
 const router = Router()
 
-// const model = new ChatOpenAI({
-//     model: "gpt-4o",
-//     temperature: 0
-// });
+
 
 import { z } from "zod";
 import { Annotation, StateGraph } from "@langchain/langgraph";
