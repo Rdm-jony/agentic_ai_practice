@@ -42,4 +42,19 @@ Full URL : http://localhost:5000/essay (Post)
 
 
 ---
+### Conditional Workflow
+- Detects sentiment (positive / negative).
+- For positive reviews → generates a warm thank-you message.
+- For negative reviews → runs a diagnosis (issue type, tone, urgency) and crafts a helpful support reply.
+- Uses StateGraph workflow to manage logic flow.
+- 
+Full URL : http://localhost:5000/review (Post)
+```
+{
+  "review": "put here your review", //string
+}
+```
+#### Workflow
+<img src="./src/assets/review.png" alt="BMI Graph" width="500" height="300"/>
+
 
